@@ -1,0 +1,21 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#061826;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  font-family:Arial, sans-serif;
+}
+
+canvas{
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  border:4px solid #7de2ff;
+  box-shadow:0 0 30px #1ecbff;
+}
